@@ -1,0 +1,21 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: container
+      username: GnIjRrwmXBFNApoDKcpPgLgQ
+      password: 9x6qhj_PDIM31pOG.EUrbwDc8-eHMqbAMJN0ZtQW,1Emww-yoE8GeJrzJSoDEd,g0XfjrGqAY8O3fc2Q7mR3Y_cH_n02gd_zEQe.iPbIqydOtK4unRHbfry1nJO2tjpt
+      schema-action: create-if-not-exists
+      request:
+        timeout: 10s
+      connection:
+        connect-timeout: 10s
+        init-query-timeout: 10s
+
+datastax.astra:
+  secure-connect-bundle: secure-connect-maerskcontainer.zip
+
+astra.db:
+  id: d239d68d-f2f1-4e4d-ad50-92f6cbbf2e54
+  region: europe-west1
+  keyspace: container
+  application.token: AstraCS:GnIjRrwmXBFNApoDKcpPgLgQ:72ac12ab2350845b161db3d436e99649f7575c69a8b92c60cf84f23aeb007cb5
